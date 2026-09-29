@@ -4,14 +4,45 @@
     {
       "id": "es_leda",
       "lang": "es",
-      "version": 1,
-      "clips": 36,
-      "url": "https://yrift.github.io/blip-packs/es/es_leda_v1.zip",
-      "size": 2686860,
-      "sha256": "a102c6d9eb2d6bf4b78a8b8d3c5e5d56768fae40dce58674eca80fe765d1b37d",
+      "version": 2,
+      "clips": 64,
+      "url": "https://yrift.github.io/blip-packs/es/es_leda_v2.zip",
+      "preview": "https://yrift.github.io/blip-packs/es/es_leda_preview.wav",
+      "size": 4233695,
+      "sha256": "84ebca59147b49dec290cc6aecb2660ade9f79fe455e25e0cecbc041b807d535",
       "label": "Español (Latinoamérica)",
       "voice": "Leda",
-      "minAppBuild": 0
+      "minAppBuild": 0,
+      "chain": {
+        "head": "speak_h_{h}",
+        "minute": "speak_min_{m}",
+        "tail12": {
+          "0": "speak_tail_noche",
+          "1": "speak_tail_madrugada",
+          "2": "speak_tail_madrugada",
+          "3": "speak_tail_madrugada",
+          "4": "speak_tail_madrugada",
+          "5": "speak_tail_madrugada",
+          "6": "speak_tail_manana",
+          "7": "speak_tail_manana",
+          "8": "speak_tail_manana",
+          "9": "speak_tail_manana",
+          "10": "speak_tail_manana",
+          "11": "speak_tail_manana",
+          "12": "speak_tail_mediodia",
+          "13": "speak_tail_tarde",
+          "14": "speak_tail_tarde",
+          "15": "speak_tail_tarde",
+          "16": "speak_tail_tarde",
+          "17": "speak_tail_tarde",
+          "18": "speak_tail_tarde",
+          "19": "speak_tail_tarde",
+          "20": "speak_tail_noche",
+          "21": "speak_tail_noche",
+          "22": "speak_tail_noche",
+          "23": "speak_tail_noche"
+        }
+      }
     }
   ]
 }

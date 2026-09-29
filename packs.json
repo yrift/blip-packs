@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "packs": [
+    {
+      "id": "es_leda",
+      "lang": "es",
+      "version": 1,
+      "clips": 36,
+      "url": "https://yrift.github.io/blip-packs/es/es_leda_v1.zip",
+      "size": 2686860,
+      "sha256": "a102c6d9eb2d6bf4b78a8b8d3c5e5d56768fae40dce58674eca80fe765d1b37d",
+      "label": "Español (Latinoamérica)",
+      "voice": "Leda",
+      "minAppBuild": 0
+    }
+  ]
+}

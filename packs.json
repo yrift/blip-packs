@@ -129,6 +129,23 @@
           "23": "speak_tail_evening"
         }
       }
+    },
+    {
+      "id": "hi_leda",
+      "lang": "hi",
+      "version": 1,
+      "clips": 59,
+      "url": "https://yrift.github.io/blip-packs/hi/hi_leda_v1.zip",
+      "preview": "https://yrift.github.io/blip-packs/hi/hi_leda_preview.wav",
+      "size": 3862872,
+      "sha256": "11e851bcb660d1dd571c1a7766bc2d2ae500a768128497b9c12cf04b45ca93fc",
+      "label": "हिन्दी",
+      "voice": "Leda",
+      "minAppBuild": 171,
+      "chain": {
+        "head": "speak_h_{h}",
+        "minute": "speak_min_{m}"
+      }
     }
   ]
 }

@@ -1,0 +1,201 @@
+{
+  "schema": 1,
+  "enabled": {
+    "android": true,
+    "ios": false
+  },
+  "min_days_since_install": 2,
+  "global_cooldown_days": 3,
+  "max_per_week": 1,
+  "items": [
+    {
+      "id": "new_voices_2026_10",
+      "active": true,
+      "start": "2026-10-08",
+      "end": "2026-11-15",
+      "frequency": "once",
+      "priority": 10,
+      "style": "banner",
+      "rollout_percent": 100,
+      "audience": {
+        "platform": "android",
+        "tts_on": true
+      },
+      "action": "voice_packs",
+      "text": {
+        "en": {
+          "title": "New voices",
+          "body": "Classic, Pilot and more — have a listen.",
+          "button": "Listen"
+        },
+        "tr": {
+          "title": "Yeni sesler",
+          "body": "Klasik, Pilot ve dahası — bir dinle.",
+          "button": "Dinle"
+        },
+        "es": {
+          "title": "Voces nuevas",
+          "body": "Clásica, Piloto y más: escúchalas.",
+          "button": "Escuchar"
+        },
+        "pt": {
+          "title": "Novas vozes",
+          "body": "Clássica, Piloto e mais — ouça agora.",
+          "button": "Ouvir"
+        },
+        "de": {
+          "title": "Neue Stimmen",
+          "body": "Klassisch, Pilot und mehr – hör mal rein.",
+          "button": "Anhören"
+        },
+        "fr": {
+          "title": "Nouvelles voix",
+          "body": "Classique, Pilote et plus — écoutez-les.",
+          "button": "Écouter"
+        },
+        "ar": {
+          "title": "أصوات جديدة",
+          "body": "الكلاسيكي والطيار والمزيد — استمع الآن.",
+          "button": "استمع"
+        },
+        "ja": {
+          "title": "新しい音声",
+          "body": "クラシック、パイロットなど — 聴いてみてください。",
+          "button": "聴く"
+        },
+        "hi": {
+          "title": "नई आवाज़ें",
+          "body": "क्लासिक, पायलट और भी — सुनकर देखें।",
+          "button": "सुनें"
+        }
+      }
+    },
+    {
+      "id": "lock_clock_2026_10",
+      "active": true,
+      "start": "2026-10-08",
+      "end": "2026-12-31",
+      "frequency": "once",
+      "priority": 8,
+      "style": "banner",
+      "rollout_percent": 100,
+      "audience": {
+        "platform": "android",
+        "pro": true,
+        "hide_if_used": "lock_clock"
+      },
+      "action": "lock_clock",
+      "text": {
+        "en": {
+          "title": "BB-1 on your lock screen",
+          "body": "Put the watch on your lock screen as a live wallpaper.",
+          "button": "Set up"
+        },
+        "tr": {
+          "title": "BB-1 kilit ekranında",
+          "body": "Saati canlı duvar kâğıdı olarak kilit ekranına koy.",
+          "button": "Kur"
+        },
+        "es": {
+          "title": "BB-1 en tu pantalla de bloqueo",
+          "body": "Pon el reloj como fondo animado en la pantalla de bloqueo.",
+          "button": "Configurar"
+        },
+        "pt": {
+          "title": "BB-1 no ecrã de bloqueio",
+          "body": "Coloque o relógio como papel de parede animado no bloqueio.",
+          "button": "Configurar"
+        },
+        "de": {
+          "title": "BB-1 auf dem Sperrbildschirm",
+          "body": "Die Uhr als Live-Hintergrund auf den Sperrbildschirm.",
+          "button": "Einrichten"
+        },
+        "fr": {
+          "title": "BB-1 sur l'écran de verrouillage",
+          "body": "La montre en fond d'écran animé sur l'écran de verrouillage.",
+          "button": "Configurer"
+        },
+        "ar": {
+          "title": "BB-1 على شاشة القفل",
+          "body": "ضع الساعة خلفية حية على شاشة القفل.",
+          "button": "إعداد"
+        },
+        "ja": {
+          "title": "BB-1をロック画面に",
+          "body": "時計をライブ壁紙としてロック画面に表示。",
+          "button": "設定"
+        },
+        "hi": {
+          "title": "लॉक स्क्रीन पर BB-1",
+          "body": "घड़ी को लाइव वॉलपेपर के रूप में लॉक स्क्रीन पर लगाएँ।",
+          "button": "सेट करें"
+        }
+      }
+    },
+    {
+      "id": "silent_bypass_2026_10",
+      "active": true,
+      "start": "2026-10-08",
+      "end": "2026-12-31",
+      "frequency": "once",
+      "priority": 5,
+      "style": "banner",
+      "rollout_percent": 100,
+      "audience": {
+        "platform": "android",
+        "pro": false,
+        "silent_bypass_on": false,
+        "min_app_opens": 3
+      },
+      "action": "silent_bypass",
+      "text": {
+        "en": {
+          "title": "Hear it on silent too",
+          "body": "Let the hourly beep play even when your phone is on silent.",
+          "button": "Turn on"
+        },
+        "tr": {
+          "title": "Sessizde de duy",
+          "body": "Telefon sessizdeyken de saat başı bip çalsın.",
+          "button": "Aç"
+        },
+        "es": {
+          "title": "Escúchalo también en silencio",
+          "body": "Que el pitido suene aunque el móvil esté en silencio.",
+          "button": "Activar"
+        },
+        "pt": {
+          "title": "Ouça também no silencioso",
+          "body": "O bipe toca mesmo com o telemóvel em silêncio.",
+          "button": "Ativar"
+        },
+        "de": {
+          "title": "Auch lautlos hören",
+          "body": "Der stündliche Piep spielt auch im Lautlos-Modus.",
+          "button": "Einschalten"
+        },
+        "fr": {
+          "title": "Entendez-le même en silencieux",
+          "body": "Le bip horaire sonne même téléphone en silencieux.",
+          "button": "Activer"
+        },
+        "ar": {
+          "title": "اسمعه حتى في الوضع الصامت",
+          "body": "دع صفارة كل ساعة تعمل حتى والهاتف صامت.",
+          "button": "تشغيل"
+        },
+        "ja": {
+          "title": "マナーモードでも聞こえる",
+          "body": "マナーモード中でも毎時のビープを鳴らします。",
+          "button": "オンにする"
+        },
+        "hi": {
+          "title": "साइलेंट पर भी सुनें",
+          "body": "फ़ोन साइलेंट पर हो तब भी हर घंटे की बीप बजे।",
+          "button": "चालू करें"
+        }
+      }
+    }
+  ]
+}

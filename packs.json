@@ -2,6 +2,49 @@
   "schema": 1,
   "packs": [
     {
+      "id": "pilot_cabin",
+      "lang": "en",
+      "version": 1,
+      "clips": 62,
+      "url": "https://yrift.github.io/blip-packs/en/pilot_cabin_v1.zip",
+      "preview": "https://yrift.github.io/blip-packs/en/pilot_cabin_preview.wav",
+      "size": 14884224,
+      "sha256": "668b6d3421ba3aff51a43209cdb8d0b28a8188aa858ea83b877dd6138cf18b91",
+      "label": "Pilot · Cabin",
+      "voice": "Captain",
+      "minAppBuild": 171,
+      "chain": {
+        "head": "speak_h_{h}",
+        "minute": "speak_min_{m}",
+        "tail12": {
+          "0": "speak_tail_morning",
+          "1": "speak_tail_morning",
+          "2": "speak_tail_morning",
+          "3": "speak_tail_morning",
+          "4": "speak_tail_morning",
+          "5": "speak_tail_morning",
+          "6": "speak_tail_morning",
+          "7": "speak_tail_morning",
+          "8": "speak_tail_morning",
+          "9": "speak_tail_morning",
+          "10": "speak_tail_morning",
+          "11": "speak_tail_morning",
+          "12": "speak_tail_afternoon",
+          "13": "speak_tail_afternoon",
+          "14": "speak_tail_afternoon",
+          "15": "speak_tail_afternoon",
+          "16": "speak_tail_afternoon",
+          "17": "speak_tail_afternoon",
+          "18": "speak_tail_evening",
+          "19": "speak_tail_evening",
+          "20": "speak_tail_evening",
+          "21": "speak_tail_evening",
+          "22": "speak_tail_evening",
+          "23": "speak_tail_evening"
+        }
+      }
+    },
+    {
       "id": "es_leda",
       "lang": "es",
       "version": 3,
@@ -144,49 +187,6 @@
           "21": "speak_tail_layl",
           "22": "speak_tail_layl",
           "23": "speak_tail_layl"
-        }
-      }
-    },
-    {
-      "id": "pilot_cabin",
-      "lang": "en",
-      "version": 1,
-      "clips": 62,
-      "url": "https://yrift.github.io/blip-packs/en/pilot_cabin_v1.zip",
-      "preview": "https://yrift.github.io/blip-packs/en/pilot_cabin_preview.wav",
-      "size": 14884224,
-      "sha256": "668b6d3421ba3aff51a43209cdb8d0b28a8188aa858ea83b877dd6138cf18b91",
-      "label": "Pilot · Cabin",
-      "voice": "Captain",
-      "minAppBuild": 171,
-      "chain": {
-        "head": "speak_h_{h}",
-        "minute": "speak_min_{m}",
-        "tail12": {
-          "0": "speak_tail_morning",
-          "1": "speak_tail_morning",
-          "2": "speak_tail_morning",
-          "3": "speak_tail_morning",
-          "4": "speak_tail_morning",
-          "5": "speak_tail_morning",
-          "6": "speak_tail_morning",
-          "7": "speak_tail_morning",
-          "8": "speak_tail_morning",
-          "9": "speak_tail_morning",
-          "10": "speak_tail_morning",
-          "11": "speak_tail_morning",
-          "12": "speak_tail_afternoon",
-          "13": "speak_tail_afternoon",
-          "14": "speak_tail_afternoon",
-          "15": "speak_tail_afternoon",
-          "16": "speak_tail_afternoon",
-          "17": "speak_tail_afternoon",
-          "18": "speak_tail_evening",
-          "19": "speak_tail_evening",
-          "20": "speak_tail_evening",
-          "21": "speak_tail_evening",
-          "22": "speak_tail_evening",
-          "23": "speak_tail_evening"
         }
       }
     }

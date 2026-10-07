@@ -19,7 +19,13 @@
       "rollout_percent": 100,
       "audience": {
         "platform": "android",
-        "tts_on": true
+        "tts_on": true,
+        "settings": {
+          "enabled": true
+        },
+        "permissions": {
+          "notification": true
+        }
       },
       "action": "voice_packs",
       "text": {
@@ -82,7 +88,13 @@
       "audience": {
         "platform": "android",
         "pro": true,
-        "hide_if_used": "lock_clock"
+        "hide_if_used": "lock_clock",
+        "settings": {
+          "enabled": true
+        },
+        "permissions": {
+          "notification": true
+        }
       },
       "action": "lock_clock",
       "text": {
@@ -146,7 +158,13 @@
         "platform": "android",
         "pro": false,
         "silent_bypass_on": false,
-        "min_app_opens": 3
+        "min_app_opens": 3,
+        "settings": {
+          "enabled": true
+        },
+        "permissions": {
+          "notification": true
+        }
       },
       "action": "silent_bypass",
       "text": {

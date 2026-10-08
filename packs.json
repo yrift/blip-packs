@@ -379,7 +379,8 @@
       "chain": {
         "head": "speak_h_{h}",
         "minute": "speak_min_{m}"
-      }
+      },
+      "ios": false
     }
   ]
 }

@@ -9,6 +9,74 @@
   "max_per_week": 1,
   "items": [
     {
+      "id": "deep_voice_2026_10",
+      "active": true,
+      "start": "2026-10-08",
+      "end": "2026-11-30",
+      "frequency": "once",
+      "priority": 20,
+      "style": "popup",
+      "rollout_percent": 100,
+      "audience": {
+        "platform": "android",
+        "tts_on": true,
+        "settings": {
+          "enabled": true
+        },
+        "permissions": {
+          "notification": true
+        }
+      },
+      "action": "voice_packs",
+      "text": {
+        "en": {
+          "title": "New voice: Deep",
+          "body": "A deep, warm narrator voice to tell you the time. Have a listen.",
+          "button": "Listen"
+        },
+        "tr": {
+          "title": "Yeni ses: Deep",
+          "body": "Saati söyleyen derin, sıcak bir anlatıcı sesi (İngilizce). Bir dinle.",
+          "button": "Dinle"
+        },
+        "es": {
+          "title": "Nueva voz: Deep",
+          "body": "Una voz de narrador grave y cálida que te dice la hora (en inglés). Escúchala.",
+          "button": "Escuchar"
+        },
+        "pt": {
+          "title": "Nova voz: Deep",
+          "body": "Uma voz de narrador grave e calorosa para dizer as horas (em inglês). Ouça.",
+          "button": "Ouvir"
+        },
+        "de": {
+          "title": "Neue Stimme: Deep",
+          "body": "Eine tiefe, warme Erzählerstimme sagt dir die Uhrzeit (auf Englisch). Hör mal rein.",
+          "button": "Anhören"
+        },
+        "fr": {
+          "title": "Nouvelle voix : Deep",
+          "body": "Une voix de narrateur grave et chaleureuse pour annoncer l'heure (en anglais). Écoutez-la.",
+          "button": "Écouter"
+        },
+        "ja": {
+          "title": "新しい音声：Deep",
+          "body": "低く温かいナレーターの声で時刻をお知らせします（英語）。聴いてみてください。",
+          "button": "聴く"
+        },
+        "hi": {
+          "title": "नई आवाज़: Deep",
+          "body": "समय बताने के लिए एक गहरी, गर्मजोशी भरी नैरेटर आवाज़ (अंग्रेज़ी में)। सुनकर देखें।",
+          "button": "सुनें"
+        },
+        "ar": {
+          "title": "صوت جديد: Deep",
+          "body": "صوت راوٍ عميق ودافئ يخبرك بالوقت (بالإنجليزية). استمع إليه.",
+          "button": "استمع"
+        }
+      }
+    },
+    {
       "id": "new_voices_2026_10",
       "active": true,
       "start": "2026-10-08",

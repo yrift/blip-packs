@@ -214,6 +214,126 @@
           "button": "चालू करें"
         }
       }
+    },
+    {
+      "id": "hindi_voice_pro_tts_2026_10",
+      "active": true,
+      "start": "2026-10-08",
+      "end": "2026-12-31",
+      "frequency": "once",
+      "priority": 12,
+      "style": "banner",
+      "rollout_percent": 100,
+      "audience": {
+        "platform": "android",
+        "languages": [
+          "hi",
+          "en-IN",
+          "en_IN"
+        ],
+        "hide_if_used": "voice_pack",
+        "settings": {
+          "enabled": true
+        },
+        "permissions": {
+          "notification": true
+        },
+        "pro": true,
+        "tts_on": true
+      },
+      "action": "voice_packs",
+      "text": {
+        "en": {
+          "title": "Speak the time in Hindi",
+          "body": "A Hindi voice is ready for Speak time aloud.",
+          "button": "Listen"
+        },
+        "hi": {
+          "title": "अब समय हिंदी में सुनें",
+          "body": "'समय बोलकर बताएँ' के लिए हिंदी आवाज़ तैयार है।",
+          "button": "सुनें"
+        }
+      }
+    },
+    {
+      "id": "hindi_voice_pro_2026_10",
+      "active": true,
+      "start": "2026-10-08",
+      "end": "2026-12-31",
+      "frequency": "once",
+      "priority": 11,
+      "style": "banner",
+      "rollout_percent": 100,
+      "audience": {
+        "platform": "android",
+        "languages": [
+          "hi",
+          "en-IN",
+          "en_IN"
+        ],
+        "hide_if_used": "voice_pack",
+        "settings": {
+          "enabled": true
+        },
+        "permissions": {
+          "notification": true
+        },
+        "pro": true,
+        "tts_on": false
+      },
+      "action": "voice_packs",
+      "text": {
+        "en": {
+          "title": "Hear the time in Hindi",
+          "body": "Turn on Speak time aloud — now with a Hindi voice.",
+          "button": "Listen"
+        },
+        "hi": {
+          "title": "समय हिंदी में सुनें",
+          "body": "'समय बोलकर बताएँ' चालू करें — अब हिंदी आवाज़ में।",
+          "button": "सुनें"
+        }
+      }
+    },
+    {
+      "id": "hindi_voice_free_2026_10",
+      "active": true,
+      "start": "2026-10-08",
+      "end": "2026-12-31",
+      "frequency": "once",
+      "priority": 9,
+      "style": "banner",
+      "rollout_percent": 100,
+      "audience": {
+        "platform": "android",
+        "languages": [
+          "hi",
+          "en-IN",
+          "en_IN"
+        ],
+        "hide_if_used": "voice_pack",
+        "settings": {
+          "enabled": true
+        },
+        "permissions": {
+          "notification": true
+        },
+        "pro": false,
+        "min_app_opens": 3
+      },
+      "action": "voice_packs",
+      "text": {
+        "en": {
+          "title": "Hear the time in Hindi",
+          "body": "Every hour, spoken in Hindi. Listen to a free sample.",
+          "button": "Listen free"
+        },
+        "hi": {
+          "title": "समय हिंदी में सुनें",
+          "body": "हर घंटे, हिंदी में बोला गया समय। मुफ़्त नमूना सुनें।",
+          "button": "मुफ़्त सुनें"
+        }
+      }
     }
   ]
 }

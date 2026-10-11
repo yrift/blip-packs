@@ -9,6 +9,75 @@
   "max_per_week": 1,
   "items": [
     {
+      "id": "pilot_voice_2026_10",
+      "active": true,
+      "start": "2026-10-11",
+      "end": "2026-11-30",
+      "frequency": "once",
+      "priority": 15,
+      "style": "popup",
+      "rollout_percent": 100,
+      "audience": {
+        "platform": "android",
+        "hide_if_used": "voice_pack",
+        "min_app_opens": 3,
+        "settings": {
+          "enabled": true
+        },
+        "permissions": {
+          "notification": true
+        }
+      },
+      "action": "voice_packs",
+      "text": {
+        "en": {
+          "title": "Your captain speaking ✈️",
+          "body": "A real pilot voice can now tell you the time every hour. Have a listen — it's free to try.",
+          "button": "Listen"
+        },
+        "tr": {
+          "title": "Kaptanınız konuşuyor ✈️",
+          "body": "Saati artık her saat başı bir pilot sesi söyleyebilir (İngilizce). Bir dinle, denemek ücretsiz.",
+          "button": "Dinle"
+        },
+        "es": {
+          "title": "Les habla su capitán ✈️",
+          "body": "Ahora una voz de piloto puede decirte la hora cada hora (en inglés). Escúchala, probarla es gratis.",
+          "button": "Escuchar"
+        },
+        "pt": {
+          "title": "Aqui fala o seu comandante ✈️",
+          "body": "Agora uma voz de piloto pode dizer as horas a cada hora (em inglês). Ouça — experimentar é grátis.",
+          "button": "Ouvir"
+        },
+        "de": {
+          "title": "Hier spricht Ihr Kapitän ✈️",
+          "body": "Eine Piloten-Stimme kann dir jetzt jede Stunde die Uhrzeit ansagen (auf Englisch). Hör kostenlos rein.",
+          "button": "Anhören"
+        },
+        "fr": {
+          "title": "Ici votre commandant ✈️",
+          "body": "Une voix de pilote peut maintenant annoncer l'heure à chaque heure (en anglais). Écoutez, l'essai est gratuit.",
+          "button": "Écouter"
+        },
+        "ja": {
+          "title": "機長からのお知らせ ✈️",
+          "body": "パイロットの声が毎正時に時刻をお知らせします（英語）。無料で試聴できます。",
+          "button": "聴く"
+        },
+        "hi": {
+          "title": "आपके कैप्टन बोल रहे हैं ✈️",
+          "body": "अब एक पायलट की आवाज़ हर घंटे समय बता सकती है (अंग्रेज़ी में)। सुनकर देखें — आज़माना मुफ़्त है।",
+          "button": "सुनें"
+        },
+        "ar": {
+          "title": "يتحدث إليكم القبطان ✈️",
+          "body": "يمكن الآن لصوت طيار أن يخبرك بالوقت كل ساعة (بالإنجليزية). استمع، التجربة مجانية.",
+          "button": "استمع"
+        }
+      }
+    },
+    {
       "id": "deep_voice_2026_10",
       "active": true,
       "start": "2026-10-08",

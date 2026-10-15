@@ -7,6 +7,9 @@
   "min_days_since_install": 2,
   "global_cooldown_days": 3,
   "max_per_week": 1,
+  "flags": {
+    "paywall_pacing": false
+  },
   "items": [
     {
       "id": "pilot_voice_2026_10",

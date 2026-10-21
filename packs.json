@@ -42,136 +42,8 @@
           "22": "speak_tail_pm",
           "23": "speak_tail_pm"
         }
-      }
-    },
-    {
-      "id": "en_iapetus",
-      "lang": "en",
-      "version": 2,
-      "clips": 61,
-      "url": "https://yrift.github.io/blip-packs/en/en_iapetus_v2.zip",
-      "preview": "https://yrift.github.io/blip-packs/en/en_iapetus_preview.wav",
-      "size": 3412713,
-      "sha256": "217acfbed2d1932644f392b716472936d3be4924b94e339157019b3764b3671e",
-      "label": "English · Classic (male)",
-      "voice": "Iapetus",
-      "minAppBuild": 171,
-      "chain": {
-        "head": "speak_h_{h}",
-        "minute": "speak_min_{m}",
-        "tail12": {
-          "0": "speak_tail_am",
-          "1": "speak_tail_am",
-          "2": "speak_tail_am",
-          "3": "speak_tail_am",
-          "4": "speak_tail_am",
-          "5": "speak_tail_am",
-          "6": "speak_tail_am",
-          "7": "speak_tail_am",
-          "8": "speak_tail_am",
-          "9": "speak_tail_am",
-          "10": "speak_tail_am",
-          "11": "speak_tail_am",
-          "12": "speak_tail_pm",
-          "13": "speak_tail_pm",
-          "14": "speak_tail_pm",
-          "15": "speak_tail_pm",
-          "16": "speak_tail_pm",
-          "17": "speak_tail_pm",
-          "18": "speak_tail_pm",
-          "19": "speak_tail_pm",
-          "20": "speak_tail_pm",
-          "21": "speak_tail_pm",
-          "22": "speak_tail_pm",
-          "23": "speak_tail_pm"
-        }
-      }
-    },
-    {
-      "id": "en_kore",
-      "lang": "en",
-      "version": 2,
-      "clips": 61,
-      "url": "https://yrift.github.io/blip-packs/en/en_kore_v2.zip",
-      "preview": "https://yrift.github.io/blip-packs/en/en_kore_preview.wav",
-      "size": 3481340,
-      "sha256": "d677a4015bd951d33ddcbe1ff748d682612182559f57a459879c8c1d5d179f6e",
-      "label": "English · Classic (female)",
-      "voice": "Kore",
-      "minAppBuild": 171,
-      "chain": {
-        "head": "speak_h_{h}",
-        "minute": "speak_min_{m}",
-        "tail12": {
-          "0": "speak_tail_am",
-          "1": "speak_tail_am",
-          "2": "speak_tail_am",
-          "3": "speak_tail_am",
-          "4": "speak_tail_am",
-          "5": "speak_tail_am",
-          "6": "speak_tail_am",
-          "7": "speak_tail_am",
-          "8": "speak_tail_am",
-          "9": "speak_tail_am",
-          "10": "speak_tail_am",
-          "11": "speak_tail_am",
-          "12": "speak_tail_pm",
-          "13": "speak_tail_pm",
-          "14": "speak_tail_pm",
-          "15": "speak_tail_pm",
-          "16": "speak_tail_pm",
-          "17": "speak_tail_pm",
-          "18": "speak_tail_pm",
-          "19": "speak_tail_pm",
-          "20": "speak_tail_pm",
-          "21": "speak_tail_pm",
-          "22": "speak_tail_pm",
-          "23": "speak_tail_pm"
-        }
-      }
-    },
-    {
-      "id": "en_leda",
-      "lang": "en",
-      "version": 2,
-      "clips": 62,
-      "url": "https://yrift.github.io/blip-packs/en/en_leda_v2.zip",
-      "preview": "https://yrift.github.io/blip-packs/en/en_leda_preview.wav",
-      "size": 3640028,
-      "sha256": "65a5601abe722c498f7fb1cd71f53f6c26ab056a833a3390dd0f4756fe4e4475",
-      "label": "English · Bright (female)",
-      "voice": "Leda",
-      "minAppBuild": 171,
-      "chain": {
-        "head": "speak_h_{h}",
-        "minute": "speak_min_{m}",
-        "tail12": {
-          "0": "speak_tail_morning",
-          "1": "speak_tail_morning",
-          "2": "speak_tail_morning",
-          "3": "speak_tail_morning",
-          "4": "speak_tail_morning",
-          "5": "speak_tail_morning",
-          "6": "speak_tail_morning",
-          "7": "speak_tail_morning",
-          "8": "speak_tail_morning",
-          "9": "speak_tail_morning",
-          "10": "speak_tail_morning",
-          "11": "speak_tail_morning",
-          "12": "speak_tail_afternoon",
-          "13": "speak_tail_afternoon",
-          "14": "speak_tail_afternoon",
-          "15": "speak_tail_afternoon",
-          "16": "speak_tail_afternoon",
-          "17": "speak_tail_afternoon",
-          "18": "speak_tail_evening",
-          "19": "speak_tail_evening",
-          "20": "speak_tail_evening",
-          "21": "speak_tail_evening",
-          "22": "speak_tail_evening",
-          "23": "speak_tail_evening"
-        }
-      }
+      },
+      "order": 1
     },
     {
       "id": "pilot_cabin",
@@ -214,7 +86,140 @@
           "22": "speak_tail_evening",
           "23": "speak_tail_evening"
         }
-      }
+      },
+      "order": 2
+    },
+    {
+      "id": "en_iapetus",
+      "lang": "en",
+      "version": 2,
+      "clips": 61,
+      "url": "https://yrift.github.io/blip-packs/en/en_iapetus_v2.zip",
+      "preview": "https://yrift.github.io/blip-packs/en/en_iapetus_preview.wav",
+      "size": 3412713,
+      "sha256": "217acfbed2d1932644f392b716472936d3be4924b94e339157019b3764b3671e",
+      "label": "English · Classic (male)",
+      "voice": "Iapetus",
+      "minAppBuild": 171,
+      "chain": {
+        "head": "speak_h_{h}",
+        "minute": "speak_min_{m}",
+        "tail12": {
+          "0": "speak_tail_am",
+          "1": "speak_tail_am",
+          "2": "speak_tail_am",
+          "3": "speak_tail_am",
+          "4": "speak_tail_am",
+          "5": "speak_tail_am",
+          "6": "speak_tail_am",
+          "7": "speak_tail_am",
+          "8": "speak_tail_am",
+          "9": "speak_tail_am",
+          "10": "speak_tail_am",
+          "11": "speak_tail_am",
+          "12": "speak_tail_pm",
+          "13": "speak_tail_pm",
+          "14": "speak_tail_pm",
+          "15": "speak_tail_pm",
+          "16": "speak_tail_pm",
+          "17": "speak_tail_pm",
+          "18": "speak_tail_pm",
+          "19": "speak_tail_pm",
+          "20": "speak_tail_pm",
+          "21": "speak_tail_pm",
+          "22": "speak_tail_pm",
+          "23": "speak_tail_pm"
+        }
+      },
+      "order": 4
+    },
+    {
+      "id": "en_kore",
+      "lang": "en",
+      "version": 2,
+      "clips": 61,
+      "url": "https://yrift.github.io/blip-packs/en/en_kore_v2.zip",
+      "preview": "https://yrift.github.io/blip-packs/en/en_kore_preview.wav",
+      "size": 3481340,
+      "sha256": "d677a4015bd951d33ddcbe1ff748d682612182559f57a459879c8c1d5d179f6e",
+      "label": "English · Classic (female)",
+      "voice": "Kore",
+      "minAppBuild": 171,
+      "chain": {
+        "head": "speak_h_{h}",
+        "minute": "speak_min_{m}",
+        "tail12": {
+          "0": "speak_tail_am",
+          "1": "speak_tail_am",
+          "2": "speak_tail_am",
+          "3": "speak_tail_am",
+          "4": "speak_tail_am",
+          "5": "speak_tail_am",
+          "6": "speak_tail_am",
+          "7": "speak_tail_am",
+          "8": "speak_tail_am",
+          "9": "speak_tail_am",
+          "10": "speak_tail_am",
+          "11": "speak_tail_am",
+          "12": "speak_tail_pm",
+          "13": "speak_tail_pm",
+          "14": "speak_tail_pm",
+          "15": "speak_tail_pm",
+          "16": "speak_tail_pm",
+          "17": "speak_tail_pm",
+          "18": "speak_tail_pm",
+          "19": "speak_tail_pm",
+          "20": "speak_tail_pm",
+          "21": "speak_tail_pm",
+          "22": "speak_tail_pm",
+          "23": "speak_tail_pm"
+        }
+      },
+      "order": 5
+    },
+    {
+      "id": "en_leda",
+      "lang": "en",
+      "version": 2,
+      "clips": 62,
+      "url": "https://yrift.github.io/blip-packs/en/en_leda_v2.zip",
+      "preview": "https://yrift.github.io/blip-packs/en/en_leda_preview.wav",
+      "size": 3640028,
+      "sha256": "65a5601abe722c498f7fb1cd71f53f6c26ab056a833a3390dd0f4756fe4e4475",
+      "label": "English · Bright (female)",
+      "voice": "Leda",
+      "minAppBuild": 171,
+      "chain": {
+        "head": "speak_h_{h}",
+        "minute": "speak_min_{m}",
+        "tail12": {
+          "0": "speak_tail_morning",
+          "1": "speak_tail_morning",
+          "2": "speak_tail_morning",
+          "3": "speak_tail_morning",
+          "4": "speak_tail_morning",
+          "5": "speak_tail_morning",
+          "6": "speak_tail_morning",
+          "7": "speak_tail_morning",
+          "8": "speak_tail_morning",
+          "9": "speak_tail_morning",
+          "10": "speak_tail_morning",
+          "11": "speak_tail_morning",
+          "12": "speak_tail_afternoon",
+          "13": "speak_tail_afternoon",
+          "14": "speak_tail_afternoon",
+          "15": "speak_tail_afternoon",
+          "16": "speak_tail_afternoon",
+          "17": "speak_tail_afternoon",
+          "18": "speak_tail_evening",
+          "19": "speak_tail_evening",
+          "20": "speak_tail_evening",
+          "21": "speak_tail_evening",
+          "22": "speak_tail_evening",
+          "23": "speak_tail_evening"
+        }
+      },
+      "order": 6
     },
     {
       "id": "es_leda",
@@ -257,7 +262,8 @@
           "22": "speak_tail_noche",
           "23": "speak_tail_noche"
         }
-      }
+      },
+      "order": 7
     },
     {
       "id": "pt_leda",
@@ -300,7 +306,8 @@
           "22": "speak_tail_noite",
           "23": "speak_tail_noite"
         }
-      }
+      },
+      "order": 8
     },
     {
       "id": "hi_leda",
@@ -317,7 +324,8 @@
       "chain": {
         "head": "speak_h_{h}",
         "minute": "speak_min_{m}"
-      }
+      },
+      "order": 9
     },
     {
       "id": "ar_leda",
@@ -360,7 +368,8 @@
           "22": "speak_tail_layl",
           "23": "speak_tail_layl"
         }
-      }
+      },
+      "order": 10
     }
   ],
   "packs2": [
@@ -380,7 +389,8 @@
         "head": "speak_h_{h}",
         "minute": "speak_min_{m}"
       },
-      "ios": false
+      "ios": false,
+      "order": 3
     }
   ]
 }

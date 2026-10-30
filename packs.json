@@ -131,7 +131,7 @@
           "23": "speak_tail_pm"
         }
       },
-      "order": 4
+      "order": 8
     },
     {
       "id": "en_kore",
@@ -175,7 +175,7 @@
           "23": "speak_tail_pm"
         }
       },
-      "order": 5
+      "order": 10
     },
     {
       "id": "en_leda",
@@ -219,7 +219,7 @@
           "23": "speak_tail_evening"
         }
       },
-      "order": 6
+      "order": 7
     },
     {
       "id": "es_leda",
@@ -263,7 +263,7 @@
           "23": "speak_tail_noche"
         }
       },
-      "order": 7
+      "order": 4
     },
     {
       "id": "pt_leda",
@@ -307,7 +307,7 @@
           "23": "speak_tail_noite"
         }
       },
-      "order": 8
+      "order": 5
     },
     {
       "id": "hi_leda",
@@ -369,7 +369,7 @@
           "23": "speak_tail_layl"
         }
       },
-      "order": 10
+      "order": 6
     }
   ],
   "packs2": [
@@ -391,6 +391,42 @@
       },
       "ios": false,
       "order": 3
+    },
+    {
+      "id": "ja_hiyori",
+      "lang": "ja",
+      "version": 1,
+      "clips": 59,
+      "url": "https://yrift.github.io/blip-packs/ja/ja_hiyori_v1.zip",
+      "preview": "https://yrift.github.io/blip-packs/ja/ja_hiyori_preview.wav",
+      "size": 3638813,
+      "sha256": "3ce11e3a411acdd771634559afafe868d2a0edcc2e692a05deffde06d150e5b9",
+      "label": "ひより · Hiyori",
+      "voice": "げんきに じかんを おしらせ！",
+      "minAppBuild": 174,
+      "chain": {
+        "head": "speak_h_{h}",
+        "minute": "speak_min_{m}"
+      },
+      "order": 11
+    },
+    {
+      "id": "ja_ao",
+      "lang": "ja",
+      "version": 1,
+      "clips": 59,
+      "url": "https://yrift.github.io/blip-packs/ja/ja_ao_v1.zip",
+      "preview": "https://yrift.github.io/blip-packs/ja/ja_ao_preview.wav",
+      "size": 3715224,
+      "sha256": "ca3f82199491077cc29e899eca71bb292be7d4bb0478f88dace6506e37cef193",
+      "label": "あお · Ao",
+      "voice": "しずかに じかんを おしらせします",
+      "minAppBuild": 174,
+      "chain": {
+        "head": "speak_h_{h}",
+        "minute": "speak_min_{m}"
+      },
+      "order": 12
     }
   ]
 }

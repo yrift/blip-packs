@@ -471,6 +471,24 @@
         "minute": "speak_min_{m}"
       },
       "order": 13
+    },
+    {
+      "id": "tr_leda",
+      "lang": "tr",
+      "version": 1,
+      "clips": 59,
+      "url": "https://yrift.github.io/blip-packs/tr/tr_leda_v1.zip",
+      "preview": "https://yrift.github.io/blip-packs/tr/tr_leda_preview.wav",
+      "size": 2674433,
+      "sha256": "38b76fdb02ab0180aa8dc1f9119e68e02c0dec898b2afe014bf24a18e57567ea",
+      "label": "Türkçe · Kadın",
+      "voice": "Leda",
+      "minAppBuild": 174,
+      "chain": {
+        "head": "speak_h_{h}",
+        "minute": "speak_min_{m}"
+      },
+      "order": 14
     }
   ]
 }

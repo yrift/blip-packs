@@ -43,7 +43,8 @@
           "23": "speak_tail_pm"
         }
       },
-      "order": 1
+      "order": 1,
+      "top": true
     },
     {
       "id": "pilot_cabin",
@@ -87,7 +88,8 @@
           "23": "speak_tail_evening"
         }
       },
-      "order": 2
+      "order": 2,
+      "top": true
     },
     {
       "id": "en_iapetus",
@@ -434,7 +436,8 @@
         "minute": "speak_min_{m}"
       },
       "ios": false,
-      "order": 3
+      "order": 3,
+      "top": true
     },
     {
       "id": "ja_hiyori",

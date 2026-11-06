@@ -489,6 +489,24 @@
         "minute": "speak_min_{m}"
       },
       "order": 14
+    },
+    {
+      "id": "fr_leda",
+      "lang": "fr",
+      "version": 1,
+      "clips": 59,
+      "url": "https://yrift.github.io/blip-packs/fr/fr_leda_v1.zip",
+      "preview": "https://yrift.github.io/blip-packs/fr/fr_leda_preview.wav",
+      "size": 2851258,
+      "sha256": "7828351767044be4c4eef5006afaf0c6c4acf16350afc7ebf36526a5a9b61a38",
+      "label": "Français · Femme",
+      "voice": "Leda",
+      "minAppBuild": 174,
+      "chain": {
+        "head": "speak_h_{h}",
+        "minute": "speak_min_{m}"
+      },
+      "order": 15
     }
   ]
 }
